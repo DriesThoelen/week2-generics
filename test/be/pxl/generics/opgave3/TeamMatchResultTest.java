@@ -5,7 +5,6 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 public class TeamMatchResultTest {
-	/*
 	@Test
 	public void testOurTeamLostTest() {
 		Team<SoccerPlayer> ourTeam = new Team<>("OurTeam");
@@ -56,5 +55,4 @@ public class TeamMatchResultTest {
 		assertEquals(1, opponentTeam.getTied());
 		assertEquals(0, opponentTeam.getLost());
 	}
-	*/
 }

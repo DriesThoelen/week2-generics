@@ -5,7 +5,6 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 public class TeamTest {
-/*
     @Test
     public void addPlayerIncreasesNumberOfPlayers() {
         Team<SoccerPlayer> soccerTeam = new Team<>("KRC Genk");
@@ -23,5 +22,4 @@ public class TeamTest {
         soccerTeam.addPlayer(player);
         assertEquals(1, soccerTeam.numberOfPlayers());
     }
-*/
 }

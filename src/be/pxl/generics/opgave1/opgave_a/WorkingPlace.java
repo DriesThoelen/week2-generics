@@ -2,7 +2,7 @@ package be.pxl.generics.opgave1.opgave_a;
 
 import be.pxl.generics.opgave1.Motorized;
 
-public class WorkingPlace<T> {
+public class WorkingPlace<T extends Motorized> {
 	private T thingToFix;
 	private int numberOfThingsFixed = 0;
 

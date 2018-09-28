@@ -3,7 +3,7 @@ package be.pxl.generics.opgave1.opgave_c;
 import be.pxl.generics.opgave1.Motorized;
 import be.pxl.generics.opgave1.Vehicle;
 
-public class WorkingPlace<T> {
+public class WorkingPlace<T extends Vehicle & Motorized> {
 	private T thingToFix;
 	private int numberOfThingsFixed = 0;
 

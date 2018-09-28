@@ -5,7 +5,6 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 public class TeamRankingTest {
-	/*
 	private static final Team<SoccerPlayer> OPPONENT = new Team<>("Oponent");
 
 	@Test
@@ -39,5 +38,4 @@ public class TeamRankingTest {
 		ourTeam.matchResult(OPPONENT, 5, 5);
 		assertEquals(8, ourTeam.ranking());
 	}
-	*/
 }
